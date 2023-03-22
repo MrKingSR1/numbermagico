@@ -1,0 +1,27 @@
+
+
+ @keyframes aparecer {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .mensaje {
+      position: absolute;
+      width: 300;
+      height: 150 ;
+      top: 150%;
+      left: 150%;
+      margin-left: 200px;
+      margin-top: -0px;
+      /*transform: translate(-50%, -50%);*/
+      padding: 20px;
+      background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+      color: white;
+      border-radius: 5px;
+      /*animation: desaparecer 1s ease 3s forwards; */
+    }
+    
+    @keyframes desaparecer {
+      from { opacity: 1; transform: translateX(-50%); }
+      to { opacity: 1; transform: translateX(-50%) translateY(-50px); }
+    }
+   

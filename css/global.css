@@ -1,0 +1,324 @@
+/* Estilos para cuerpo */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+    font-family: Arial, sans-serif;
+    color: white;
+
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M133.66 298.51L181.3 298.51L181.3 346.15L133.66 346.15z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M111.39 234.61L128.89 234.61L128.89 246.93L111.39 246.93z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M869.88 115.45a3.36 3.36 0 1 0-6.17 2.68z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1384.16 301.12L1404.25 301.12L1404.25 330.06L1384.16 330.06z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M255.19 237.39L273.08 237.39L273.08 255.28L255.19 255.28z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1043.68 465.99L1085.53 465.99L1085.53 507.84L1043.68 507.84z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M800.9 533.53 a52.96 52.96 0 1 0 105.92 0 a52.96 52.96 0 1 0 -105.92 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M359.08 58.86L380.26 58.86L380.26 80.04L359.08 80.04z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1397.08 237.93 a31.66 31.66 0 1 0 63.32 0 a31.66 31.66 0 1 0 -63.32 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1334.31 75.01 a3.25 3.25 0 1 0 6.5 0 a3.25 3.25 0 1 0 -6.5 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M535.56 40.81a23.55 23.55 0 1 0-5.34 46.8z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M749.47 42.9L761.24 42.9L761.24 54.67L749.47 54.67z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M735.91 251.05L753.82 251.05L753.82 268.96L735.91 268.96z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M661.06 385.12L700.85 385.12L700.85 424.91L661.06 424.91z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M789.35 432.09 a19.49 19.49 0 1 0 38.98 0 a19.49 19.49 0 1 0 -38.98 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M922.88 191.71 a14.09 14.09 0 1 0 28.18 0 a14.09 14.09 0 1 0 -28.18 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M266.93 207.34L289.83 207.34L289.83 251.98L266.93 251.98z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M234.24 101.01L286.36 101.01L286.36 146.82L234.24 146.82z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1274.18 130.26 a11.41 11.41 0 1 0 22.82 0 a11.41 11.41 0 1 0 -22.82 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M108.93 384.3L158.99 384.3L158.99 424.16L108.93 424.16z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M359.33 211.58L397.86 211.58L397.86 250.11L359.33 250.11z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M838 43.16 a29.76 29.76 0 1 0 59.52 0 a29.76 29.76 0 1 0 -59.52 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M435.37 215.79 a43.95 43.95 0 1 0 87.9 0 a43.95 43.95 0 1 0 -87.9 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M879.01 361.12a34.49 34.49 0 1 0-9.81 68.28z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M98.28 220.29L143.72 220.29L143.72 265.1L98.28 265.1z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M295.27 516.97 a25.32 25.32 0 1 0 50.64 0 a25.32 25.32 0 1 0 -50.64 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1241 319.42a4.57 4.57 0 1 0-2.47 8.8z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M774.92 301.48L817.18 301.48L817.18 343.74L774.92 343.74z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M846.14 5.55L886.51 5.55L886.51 28.44L846.14 28.44z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M435.66 421.57L444.16 421.57L444.16 430.56L435.66 430.56z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M753.88 296.89 a40.78 40.78 0 1 0 81.56 0 a40.78 40.78 0 1 0 -81.56 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1383.12 427.16L1433.09 427.16L1433.09 463.73L1383.12 463.73z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M770.19 409.07a52.43 52.43 0 1 0-35.44 98.69z' stroke='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.colorsw2{
+	color: red;
+}
+#temporizador{
+     text-align: left;
+     font-size: 35px;
+     margin-bottom: 20px;
+     align-items: center;
+     margin-left: 90px;
+     margin-top: -px;
+     width: 60px;
+     height: 60px;
+}
+
+
+.tipografia{
+	font-family:sans-serif, Calibri;
+	color: black;
+
+}
+
+.titulo{
+	font-size: 50px;
+	font-weight: 700;
+
+}
+#txt_titulo{
+	margin-left: 100px;
+	margin-top: 50px;
+	color: white;
+
+}
+#iresultado{
+	margin-left: 350px;
+	margin-top: -40px;
+}
+#ijuego{
+
+	text-align: center;
+	color: white;
+	line-height: 40px;
+
+	
+}
+#instruciones{
+	margin-left: -10px ;
+	margin-top: -330px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#instruciones2{
+	margin-left: -10px ;
+	margin-top: px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#numero-ingresado{
+	margin-left: -10px ;
+	margin-top: -300px;
+	font-size: 22px;
+	text-align: center;
+
+}
+/* Estilos para tableros */
+.tablero{
+
+	background-color: #037B0B;
+	width: 550px;
+	height: 460px;
+	border-radius: 40px;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+	margin-left: 200px;
+	margin-top: -0px;
+	
+	background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+	border-bottom: 3px solid black;
+
+}
+.mensaje{
+	margin-left: -10px ;
+	margin-top: -40px;
+
+}
+
+#user{
+	
+     margin-left: -17px;
+     margin-top: -10px;
+     width: 60px;
+     height: 60px;
+}
+#usere{
+	 width: 60px;
+     height: 60px;
+     margin-left: -17px;
+     margin-top: -100px;
+     
+}
+#user2{
+	 margin-left: -17px;
+     margin-top: -95px;
+
+}
+#userN{
+	text-align: center;
+     font-size: 35px;
+     margin-bottom: 20px;
+     align-items: center;
+	 margin-left: 67px;
+     margin-top: -55px;
+     width: 60px;
+     height: 60px;
+
+}
+#intento{
+	text-align: center;
+     font-size: 35px;
+     left: 150px;
+	 top: 150px;
+     align-items: center;
+	 margin-left: 75px;
+     margin-top: -55px;
+     width: 60px;
+     height: 60px;
+
+}
+#puntos{
+	text-align: center;
+     font-size: 35px;
+     left: 150px;
+	 top: 150px;
+     align-items: center;
+	 margin-left: 75px;
+     margin-top: -55px;
+     width: 60px;
+     height: 60px;
+	
+}
+.tablero2{
+      background-color: #037B0B;
+      width: 200px;
+      height: 40px;
+      left: 170px;
+      top: 170px;
+      margin-left: -100px;
+      margin-top: -0px;
+      border-radius: 10px;
+      position: absolute;
+      background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+      border-bottom: 3px solid black;
+}
+
+.tablero3{
+      background-color: #037B0B;
+      width: 200px;
+      height: 40px;
+      left: 170px;
+      top: 170px;
+      margin-left: -100px;
+      margin-top: 80px;
+      border-radius: 10px;
+      position: absolute;
+      background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+      border-bottom: 3px solid black;
+}
+.tablero4{
+      background-color: #037B0B;
+      width: 200px;
+      height: 40px;
+      left: 170px;
+      top: 170px;
+      margin-left: -100px;
+      margin-top: 160px;
+      border-radius: 10px;
+      position: absolute;
+      background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+      border-bottom: 3px solid black;
+}
+.tablero5{
+      background-color: #037B0B;
+      width: 200px;
+      height: 40px;
+      left: 170px;
+      top: 170px;
+      margin-left: -100px;
+      margin-top: 240px;
+      border-radius: 10px;
+      position: absolute;
+      background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+      border-bottom: 3px solid black;
+}
+
+/* Estilos para botton */
+
+button {
+
+	text-align: center;
+	padding: 15px;
+	background-color: #f44336;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	align-items: center;
+	margin: 50px;
+}
+#boton-adivinar{
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+#breset{
+	  font-size: 20px;
+	  font-weight: 700;
+	  padding-left: 57px;
+	  padding-right: 57px;
+	  left: 100px;
+      top: 100px;
+      margin-left: 63px;
+      margin-top: 380px;
+}
+
+button:hover{
+
+	background-color: #D3B714;
+}
+
+/* Estilos para main */
+
+main {
+    margin-top:
+    }
+
+/* Animacion para header */
+
+@keyframes aparecer {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+/* Estilos para header */
+
+#cabeza{
+
+	color: white;
+	
+}
+header {
+		background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+    	background-color: #082F57;
+        color: white;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 3px solid #f44336;
+ 	  	text-align: left;
+    }
+		header img {
+	      max-width: 30%;
+	      align-items: center;
+
+	    }
+	    .movimiento {
+		  position: relative;
+		  animation-name: mover;
+		  animation-duration: 3s;
+		  animation-direction: alternate;
+		  animation-timing-function: ease-in-out;
+		  animation-iteration-count: infinite;
+		}
+
+		@keyframes mover {
+		  from { left: 0px; }
+		  to { left: 200px; }
+		}
+
+		    header h1 {
+		      font-size: 36px;
+		      margin: 10px 0;
+		      text-align: center;
+		      left: 50%;
+		      top: 50%;
+		    }
+
+			 	h1 {
+			      text-align: center;
+			      animation: aparecer 5s ease;
+
+			      
+			    }
+
+/* Estilos para el pie de página */
+    footer {
+      background: linear-gradient(rgba(5, 7, 12, 0.35),rgba(5, 7, 12, 0.35));
+      background-color: #082F57;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      border-top:3px solid #f44336 ;
+
+    }			    

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<!---<link href="css/loca.css" rel="stylesheet" type="text/css">--->
+	<script src="js/js.js"></script>
+	<script src="jquery-3.6.3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.1/dist/sweetalert2.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.1/dist/sweetalert2.min.css">
+
+
+	<title>Magic Number</title>
+</head>
+
+<body>
+	<header>
+		<div id="cabeza">
+			<img src="img/MagoMatematico.gif"  width="100" height="100" align="left" alt="Logo del juego">
+	    		<h1>JUEGO DEL NÚMERO MÁGICO</h1>		
+		</div>
+  	</header>
+
+  	<div class="tablero">
+  		<div class="tipografia titulo" id="txt_titulo">
+  			Número Mágico
+  		</div>
+	  		<div id="iresultado">
+	  			<img src="img/MagoMatematico.gif" alt="logo2" width="500px"  height="400" class="movimiento">
+	  		</div>
+  				<div class="tipografia" id="ijuego">
+  					<div id="instruciones">
+  						Adivina el número mágico entre 0 y 100!
+  					</div>
+  						<input type="number" type="text" id="numero-ingresado" name="numero-ingresado" placeholder="Ingresa un número">
+		  					<div id="instruciones2">
+		  						Dale clic en el botón Adivinar
+		  					</div>
+		  						<button id="boton-adivinar" type="button">Adivinar</button>	
+		  						 <div id="mensaje-felicitacion"> <br> </div>
+
+  				</div>
+  	</div>
+
+  	<div class="tablero2">
+  		<img id="user" src="https://img.icons8.com/color/48/null/add-user-female-skin-type-7.png"/>
+  		<div id="userN"> </div>
+  	</div>
+	  	<div class="tablero3">
+	  		<div id="temporizador"> <span id="tiempo">60</span> </div>
+	  			<div id="user2">
+	  				<img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/null/external-time-food-delivery-wanicon-lineal-color-wanicon.png"/>
+	  			</div>
+	  	</div>
+		  	<div class="tablero4">
+		  		<img id="user" src="https://img.icons8.com/fluency/48/null/heart-with-pulse.png"/>
+		  		<div id="intento"> </div>
+		  	</div>
+			  	<div class="tablero5">
+			  		<img id="user" src="https://img.icons8.com/bubbles/50/null/bug.png"/>
+			  		<div id="puntos"> </div>
+			  	</div>
+  	
+  					<button id="breset" type="button">Resetear</button>	
+
+</body>
+<main>
+	
+
+
+</main>
+<footer>
+    &copy; 2023 by Andy Amaya - Todos los derechos reservados
+ </footer> 
+</html>
